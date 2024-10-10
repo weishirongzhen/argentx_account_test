@@ -32,7 +32,15 @@ const address = hash.calculateContractAddressFromHash(
     0,
 )
 
-console.log(`address: ${address}`)
+// console.log(`address: ${address}`)
+
+
+
+
+
+
+
+
 
 
 // 原始代码
