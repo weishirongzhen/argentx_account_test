@@ -6,6 +6,10 @@ import {quais} from "quais";
 
 let entropy = quais.Mnemonic.phraseToEntropy("fiscal document grain ecology wheat around sport nice guitar topple add north");
 
+const options ={
+    usePathing: true
+}
+const provider = new quais.JsonRpcProvider("https://rpc.quai.network", null, options);
 
 console.log('entropy', entropy);
 const mnemonic = quais.Mnemonic.fromEntropy(entropy);
